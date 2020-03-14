@@ -1,5 +1,8 @@
 <template>
-    <div class="home">두산아파트 리모델링 자료모음</div>
+    <div class="home">
+        아파트 입주민들이 한땀한땀 <br>
+        리모델링을 위해 준비한 자료모음입니다.
+    </div>
 </template>
 
 <script>
