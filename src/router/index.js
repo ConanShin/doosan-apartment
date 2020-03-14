@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Flyer from '../views/Flyer.vue'
 import Old from '../views/Old.vue'
+import Why from '../views/Why.vue'
+import View from '../views/View.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/old',
     name: 'Old',
     component: Old
+  },
+  {
+    path: '/why',
+    name: 'Why',
+    component: Why
+  },
+  {
+    path: '/view',
+    name: 'View',
+    component: View
   },
 ]
 
