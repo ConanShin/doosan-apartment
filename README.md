@@ -1,4 +1,4 @@
-# doosan-apartmenet
+# doosan-apartment
 
 ## Project setup
 ```
