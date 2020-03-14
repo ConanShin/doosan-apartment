@@ -19,6 +19,10 @@
   color: #2c3e50;
 }
 
+header {
+  margin-top: 30px;
+}
+
 #nav {
   padding: 30px;
 
