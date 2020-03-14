@@ -12,7 +12,7 @@
 
 <style lang="scss">
 #app {
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Gamja Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
