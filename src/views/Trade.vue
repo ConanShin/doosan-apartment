@@ -1,5 +1,19 @@
 <template>
     <div class="trade">
+        <div class="description">최근 2달간의 거래내역을 보여줍니다.</div>
+
+        <table>
+            <th>날짜</th>
+            <th>전용면적</th>
+            <th>층</th>
+            <th>거래금액</th>
+            <tr v-for="item in list">
+                <td>{{item["년"]}}년 {{item["월"]}}월 {{item["일"]}}일</td>
+                <td>{{item["전용면적"]}}m2</td>
+                <td>{{item["층"]}}</td>
+                <td>{{item["거래금액"]}}</td>
+            </tr>
+        </table>
     </div>
 </template>
 
@@ -9,10 +23,21 @@
 
     @Component
     export default class Trade extends Vue {
-        beforeMount() {
-            this.$store.dispatch('tradeHistory')
+        list = []
+        async beforeMount() {
+            this.list = await this.$store.dispatch('tradeHistory')
+            console.log(this.list)
         }
     }
 </script>
 <style scoped lang="scss">
+    .description {
+        margin-bottom: 10px;
+    }
+    table {
+        margin: auto;
+        tr {
+            height: 30px;
+        }
+    }
 </style>
