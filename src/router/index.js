@@ -2,12 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Flyer from '../views/Flyer.vue'
-import First from '../views/First.vue'
 import FirstPresentation from '../views/First-Presentation.vue'
 import FirstPlan from '../views/First-Plan.vue'
-import Why from '../views/Why.vue'
 import Goods from '../views/Goods.vue'
 import GoodsGood from "../views/Goods-Good";
+import Trade from "../views/Trade";
 
 import View from '../views/View.vue'
 import Old from '../views/Old.vue'
@@ -21,19 +20,9 @@ const routes = [
         component: Home
     },
     {
-        path: '/why',
-        name: 'Why',
-        component: Why
-    },
-    {
         path: '/flyer',
         name: 'Flyer',
         component: Flyer
-    },
-    {
-        path: '/first',
-        name: 'First',
-        component: First
     },
     {
         path: '/presentation',
@@ -54,6 +43,11 @@ const routes = [
         path: '/good',
         name: 'GoodsGood',
         component: GoodsGood
+    },
+    {
+        path: '/trade',
+        name: 'Trade',
+        component: Trade
     },
     {
         path: '/old',
