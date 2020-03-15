@@ -1,6 +1,5 @@
 <template>
     <div class="trade">
-        <iframe src="https://hogangnono.com/apt/94b6/0"></iframe>
     </div>
 </template>
 
@@ -10,7 +9,9 @@
 
     @Component
     export default class Trade extends Vue {
-
+        beforeMount() {
+            this.$store.dispatch('tradeHistory')
+        }
     }
 </script>
 <style scoped lang="scss">
