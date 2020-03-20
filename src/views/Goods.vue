@@ -1,6 +1,6 @@
 <template>
     <div class="goods">
-        <a href="https://www.youtube.com/embed/9M3GLB-jTU8" class="card">광교상현마을 리모델링 설명회</a>
+        <a href="https://www.youtube.com/embed/9M3GLB-jTU8" class="card">광상현마을 리모델링 설명회 - <b>도오전</b></a>
         <a href="https://m.cafe.naver.com/ca-fe/web/cafes/khbyeoksan/articles/346?useCafeId=false" class="card">벽산아파트 설계사 최종결과 - <b>도오전</b></a>
         <a href="http://www.sd.go.kr/mayor.do?mCode=2D001000000&op=list" class="card">금호역 1번출구 개선민원 - <b>제이</b></a>
         <a href="https://m.blog.naver.com/cotton5678/221853570848" class="card">진행시 문제 - <b>리모를찾아서</b></a>
