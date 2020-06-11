@@ -9,7 +9,7 @@ export default new Vuex.Store({
     mutations: {},
     actions: {
         tradeHistory: async context => {
-            const URL = 'http://52.79.142.42:5001'
+            const URL = 'http://13.124.121.110:5001'
             const response = await axios.get(URL)
             return response.data
         }
